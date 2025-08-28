@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    background-color: #ECDFCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.sec{
+    border-radius: 2%;
+}
+
+#facts{
+    height: 18vmin;
+    color: black;
+    background-color: #3C3D37;
+    margin-bottom: 1.5rem;
+}
+#facts #fact{
+    width: 100%;
+    height: 66%;
+    padding-top: 0.7rem;
+    padding-left: 0.4rem;
+    color: white;
+    background-color: #181C14;
+    border: none;
+}
+#facts button{
+    /* margin-bottom: 1rem; */
+    bottom: .15rem;
+    position: relative;
+    left: 45vw;
+    border-radius: 10%;
+    height: 1.2rem;
+}
+#facts div{
+    background-color: #181C14;
+    height: 58%;
+}
+
+#checker{
+    margin-top: 1rem;
+    height: 24vmax;
+    background-color: #3C3D37;
+    color: black;
+    margin-bottom: 1rem;
+}
+#checker textarea{
+    background-color: #181C14;
+    width: 100%;
+    height: 100%;
+    color: white;
+    line-height: normal;
+    padding-top: 0.5rem;
+}
+textarea:focus{
+    outline: none;
+}
+#checker #outer{
+    height: 86%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#checker #inner{
+    height: 100%;
+}
+#checker button{
+    width:5rem;
+    height: 1.4rem;
+    margin-top: 0.09rem;
+    border-radius: 10%;
+}
+#checker #Submit{
+    margin-left: 25%;
+    margin-right: 30%;
+}
+#output{
+    background-color: #3C3D37;
+    height: 22vmin;
+}
+#output textarea{
+    background-color: #181C14;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-top: 0.5rem;
+}
+#output #content-box{
+    padding-top: 0.2rem;
+    height: 80%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#content{
+    height: 100%;
+    width: 100%;
+}
